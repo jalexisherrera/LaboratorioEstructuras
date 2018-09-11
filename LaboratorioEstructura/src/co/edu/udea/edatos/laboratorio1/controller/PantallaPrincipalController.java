@@ -5,6 +5,7 @@
  */
 package co.edu.udea.edatos.laboratorio1.controller;
 
+import co.edu.udea.edatos.laboratorio1.vista.Main;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
@@ -14,14 +15,16 @@ import javafx.fxml.Initializable;
  *
  * @author Alexis Herrera
  */
-public class PantallaPrincipalController implements Initializable {
+public class PantallaPrincipalController {
 
    /**
     * Initializes the controller class.
     */
-   @Override
-   public void initialize(URL url, ResourceBundle rb) {
-	  // TODO
-   }   
+   private Main ProgramaPrincipal;
    
+   
+   public void setProgramaPrincipal(Main ProgramaPrincipal) {
+        this.ProgramaPrincipal = ProgramaPrincipal;
+    }
+
 }
