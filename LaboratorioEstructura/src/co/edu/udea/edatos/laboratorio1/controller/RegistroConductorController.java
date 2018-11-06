@@ -5,15 +5,23 @@
  */
 package co.edu.udea.edatos.laboratorio1.controller;
 
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.Initializable;
+
 /**
+ * FXML Controller class
  *
  * @author Alexis Herrera
  */
-public class RegistroConductorController {
-/*   
-   Conductor conductor;
+public class RegistroConductorController implements Initializable {
+
+   /**
+    * Initializes the controller class.
+    */
+   @Override
+   public void initialize(URL url, ResourceBundle rb) {
+	  // TODO
+   }   
    
-   ConductorDAO conductorDAO = new FileConductorDAO();
-   
-*/
 }
