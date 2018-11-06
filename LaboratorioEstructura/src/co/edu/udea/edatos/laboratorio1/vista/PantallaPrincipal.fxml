@@ -7,8 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="co.edu.udea.edatos.laboratorio1.controller.PantallaPrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.udea.edatos.laboratorio1.controller.PantallaPrincipalController">
    <children>
       <Label layoutX="10.0" layoutY="7.0" text="H2-Oh!">
          <font>
@@ -20,5 +19,11 @@
             <Font name="System Bold" size="26.0" />
          </font>
       </Label>
+      <Button fx:id="btnLicor" layoutX="121.0" layoutY="120.0" mnemonicParsing="false" onAction="#doRegistraLicor" prefHeight="38.0" prefWidth="130.0" text="Registrar Licor" />
+      <Button fx:id="btnConductor" layoutX="121.0" layoutY="192.0" mnemonicParsing="false" onAction="#doRegistraConductor" prefHeight="38.0" prefWidth="130.0" text="Registrar Conductor" />
+      <Button fx:id="btnProveedor" layoutX="121.0" layoutY="265.0" mnemonicParsing="false" onAction="#doRegistraProveedor" prefHeight="38.0" prefWidth="130.0" text="Registrar Proveedor" />
+      <Button fx:id="btnCliente" layoutX="357.0" layoutY="121.0" mnemonicParsing="false" onAction="#doRegistraCliente" prefHeight="38.0" prefWidth="130.0" text="Registrar Cliente" />
+      <Button fx:id="btnPedido" layoutX="357.0" layoutY="192.0" mnemonicParsing="false" onAction="#doRegistraPedido" prefHeight="38.0" prefWidth="130.0" text="Registrar Pedido" />
+      <Button fx:id="btnReportes" layoutX="357.0" layoutY="265.0" mnemonicParsing="false" onAction="#doReportes" prefHeight="38.0" prefWidth="130.0" text="Ver Reportes" />
    </children>
 </AnchorPane>
